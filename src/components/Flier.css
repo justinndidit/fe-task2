@@ -1,0 +1,67 @@
+.movie-catalogue {
+  padding: 3rem 5rem;
+  width: 100%;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flier-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.flier h2 {
+  color: black;
+}
+
+.flier p {
+  color: gray;
+  font-weight: 600;
+}
+
+.flier {
+  width: 20%;
+  padding-right: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.75s;
+}
+
+.flier:hover {
+  padding-right: 0.25rem;
+}
+
+.poster-img {
+  width: 100%;
+}
+
+.fav-container {
+  position: relative;
+}
+
+.fav-wrapper {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  opacity: 0.5;
+}
+
+.flier h2,
+.flier p {
+  padding: 0.5em 0;
+}
+
+.flier h2 {
+  font-size: 1.2rem;
+}

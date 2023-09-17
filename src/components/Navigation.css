@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700;9..40,900&display=swap");
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+  position: fixed;
+  top: 10;
+  width: 100%;
+  transition: all 0.3s;
+}
+.scrolling {
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+a {
+  color: #fff;
+}
+
+.appLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.icon-tv {
+  margin-right: 1rem;
+}
+
+.search-container {
+  position: relative;
+  width: 50%;
+}
+
+input {
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  width: 100%;
+  padding: 0.75rem;
+  border: solid #fff 2px;
+  border-radius: 0.5rem;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+input:focus {
+  color: #fff;
+  font-family: "DM Sans";
+  font-weight: 400;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #fff;
+}
+
+.sign-in-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.Hamburger {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #b91c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.strokes {
+  content: "";
+  width: 1rem;
+  border-top: #fff 2.5px solid;
+  border-bottom: #fff 2.5px solid;
+  padding: 0.2rem;
+}
